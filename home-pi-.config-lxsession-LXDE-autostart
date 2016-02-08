@@ -1,0 +1,7 @@
+#@lxpanel --profile LXDE
+#@pcmanfm --desktop --profile LXDE
+#@xscreensaver -no-splash
+@xset s off
+@xset s noblank
+@xset -dpms
+@chromium-browser --noerrdialogs --kiosk --incognito https://principia.ariss.org/dashboard/
